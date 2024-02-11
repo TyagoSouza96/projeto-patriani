@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    padding: 1em 0 0.5em 12em;
+    background-color: #6d0505;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 55px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Varela round', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 1%;
+}
+
+.apresentacao {
+    padding: 0 0 2em 0;
+    display: flex;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.patriani {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    display: flex;
+    font-size: 100px;
+    color: #8d0000;
+    font-family: 'Varela round', sans-serif;
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela round', sans-serif;
+    color: #5c627a;
+    font-size: 25px;
+}
+
+.texto__menor {
+    display: flex;
+    text-align: center;
+    font-family: 'Varela round', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    padding: 15%;
+}
+
+.section {
+    background-color: #6d0505;
+    display: flex;
+    font-family: 'Varela round', sans-serif;
+    font-size: 25px;
+}
+
+.texto__vinho1 {
+    font-family: 'Varela round', sans-serif;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.texto__vinho2 {
+    font-family: 'Varela round', sans-serif;
+    font-size: 15px;
+    float: left;   
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.rodape {
+    font-family: 'Varela round', sans-serif;
+    font-weight: 400;
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    background-color:#6d0505;
+    padding: 10px;
+}
+
+.rodape__2 {
+    display: none;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.img {
+    width: 50px;
+}
+
+.imagem__waze {
+    display: flex;
+    width: 150px;
+}
+
+.imagem__patriani {
+    width: 150px;
+}
+
+.imagem__qrcode {
+    width: 150px;
+    display: flex;
+    text-align: center;
+}
+
+.subtitulo {
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    font-family: 'Varela round', sans-serif;
+    font-size: 25px;
+    color: #6d0505;
+}
+
+.subtitulo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Varela round', sans-serif;
+    color: #6f7da4;
+    font-size: 20px;
+}
+
+.especialistas {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0 3em 0em;
+    font-family: 'Varela round', sans-serif;
+    color: #6d0505;
+}
+
+.section__especialistas {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #6d0505;
+    height: 200px;
+    margin: 100px;
+}
+
+.section__justino {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.waze {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.site {
+    display: flex;
+    flex-direction: column;
+}
+
+.passione {
+    font-family: 'Varela round', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    color:#6d0505
+}
+
+.passione1 {
+    text-decoration: none;
+    color: #6d0505;
+    font-weight: bolder;
+}
+
+.construtora {
+    font-family: 'Varela round', sans-serif;
+    text-align: center;
+}
+
+.Justino {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Varela round', sans-serif;
+    color: #5c627a;
+}
+
+.Ligue {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Varela round', sans-serif;
+    color: #5c627a;
+}
+
+.Imagem__2 {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .cabecalho {
+        padding: 1%;
+        width: 100%;
+    }
+    .cabecalho__menu {
+        display: flex;
+        justify-content: center;
+    }
+    .apresentacao {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section__justino {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .section__especialistas {
+        padding: 2%;
+    }
+
+    .especialistas {
+        padding: 1em;
+    }
+
+    .waze {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    .Imagem {
+        display: none;
+    }
+
+    .Imagem__2 {
+        display: block;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .rodape {
+        display: none;
+    }
+
+    .rodape__2 {
+        display: block;
+        font-family: 'Varela round', sans-serif;
+        font-weight: 400;
+        color:white;
+        font-size: 25px;
+        text-align: center;
+        background-color:#6d0505;
+        padding: 10px;
+    }
+       
+    }
+@media (max-width: 480px) {
+        .cabecalho {
+            padding: 1%;
+            width: 100%;
+        }
+        .cabecalho__menu {
+            display: flex;
+            justify-content: center;
+        }
+        .titulo {
+            font-size: 75px;
+        }
+        .apresentacao {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        .section__justino {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .section__especialistas {
+            border-style: solid;
+            border-width: 3px;
+            border-color: #6d0505;
+            height: 200px;
+            margin: 10px;
+        }
+        .section__especialistas {
+            padding: 2%;
+        }
+        .waze {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .subtitulo {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .Imagem {
+            display: none;
+        }
+
+        .Imagem__2 {
+            display: block;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        .construtora {
+            display: none;
+        }
+
+        .rodape__2 {
+            display: block;
+        }
+        }
