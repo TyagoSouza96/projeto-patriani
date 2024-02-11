@@ -293,6 +293,12 @@ body {
         .titulo {
             font-size: 75px;
         }
+
+        .subtitulo {
+            padding: 1em 1em;
+            text-align: center;
+        }
+
         .apresentacao {
             display: flex;
             flex-direction: column-reverse;
@@ -319,9 +325,8 @@ body {
             justify-content: center;
         }
         .subtitulo {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
+            display: block;
+            font-size: 20px;
         }
 
         .Imagem {
@@ -341,4 +346,5 @@ body {
         .rodape__2 {
             display: block;
         }
+
         }
